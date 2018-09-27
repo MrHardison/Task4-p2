@@ -6,7 +6,7 @@
 	<meta charset="utf-8">
 	<!-- <base href="/"> -->
 
-	<title>task4-1</title>
+	<title>task4-2</title>
 	<meta name="description" content="">
 
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,6 +28,143 @@
 </head>
 
 <body>
+    <section class="main-block">
+        <header class="main-block__header flex container">
+            <div class="hamburger-block js-toggle-menu">
+                <div class="hamburger-block__line"></div>
+            </div>
+            <a href="/" class="main-block__logo flex">
+                <img class="main-block__logo-image" src="img/logo.png" alt="Logo">
+                <span class="main-block__brandname">tinyone</span>
+            </a>
+            <nav class="header-menu">
+                <ul class="menu-socials list flex">
+                    <li class="menu-socials__item">
+                        <a class="menu-socials__link menu-socials__link_facebook" href="/" target="_blank"></a>
+                    </li>
+                    <li class="menu-socials__item">
+                        <a class="menu-socials__link menu-socials__link_twitter" href="/" target="_blank"></a>
+                    </li>
+                    <li class="menu-socials__item">
+                        <a class="menu-socials__link menu-socials__link_google" href="/" target="_blank"></a>
+                    </li>
+                    <li class="menu-socials__item">
+                        <a class="menu-socials__link menu-socials__link_pinterest" href="/" target="_blank"></a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <div class="main-block__slider container swiper-container">
+            <div class="swiper-wrapper">
+                <div class="slider-item swiper-slide">
+                    <h1 class="title title_big slider-item__title">Inspire your inspiration</h1>
+                    <p class="description slider-item__description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis.
+                    </p>
+                    <ul class="platform-block list flex">
+                        <li href="/" class="platform-block__item platform-block__item_apple"><a class="platform-block__link" href="/"></a></li>
+                        <li href="/" class="platform-block__item platform-block__item_android"><a class="platform-block__link" href="/"></a></li>
+                        <li href="/" class="platform-block__item platform-block__item_windows"><a class="platform-block__link" href="/"></a></li>
+                    </ul>
+                </div>
+                <div class="slider-item swiper-slide">
+                    <h1 class="title title_big slider-item__title">Inspire your inspiration</h1>
+                    <p class="description slider-item__description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis.
+                    </p>
+                    <ul class="platform-block list flex">
+                        <li href="/" class="platform-block__item platform-block__item_apple"><a class="platform-block__link" href="/"></a></li>
+                        <li href="/" class="platform-block__item platform-block__item_android"><a class="platform-block__link" href="/"></a></li>
+                        <li href="/" class="platform-block__item platform-block__item_windows"><a class="platform-block__link" href="/"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="js-pagination swiper-pagination list flex">
+            </div>
+        </div>
+    </section>
+    <section class="features-block container">
+        <h2 class="features-block__title title features-block__title">Tinyone features</h2>
+        <p class="features-block__description description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis.
+        </p>
+        <div class="features-wrap flex">
+            <div class="features-block__item">
+                <h3 class="features-block__sub-title title title_sm">Fully Responsive</h3>
+                <p class="text text_lt">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum.
+                </p>
+            </div>
+            <div class="features-block__item">
+                <h3 class="features-block__sub-title title title_sm">HTML5 & CSS3 </h3>
+                <p class="text text_lt">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum.
+                </p>
+            </div>
+            <div class="features-device">
+                <div class="features-device__screen"></div>
+                <div class="features-device__logo">
+                    tinyone
+                </div>
+            </div>
+            <div class="features-block__item">
+                <h3 class="features-block__sub-title title title_sm">Font Awesome Icons</h3>
+                <p class="text text_lt">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum.
+                </p>
+            </div>
+            <div class="features-block__item">
+                <h3 class="features-block__sub-title title title_sm">Free to download</h3>
+                <p class="text text_lt">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum.
+                </p>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container container_sm">
+            <h2 class="footer__title title title_yellow">Keep in touch with us</h2>
+            <p class="footer__description description description_sm">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis.
+            </p>
+            <form class="footer__form flex">
+                <input class="input footer__input" type="text" placeholder="Enter your email to update">
+                <button class="button button_yellow footer__button" type="submit">Submit</button>
+            </form>
+        </div>
+        <div class="footer__links container flex">
+            <div class="footer-contacts">
+                <p class="footer__adress">
+                    HALOVIETNAM LTD
+                    66, Dang Van ngu, Dong Da
+                    Hanoi, Vietnam
+                </p>
+                <a class="footer__email" href="mailto:mail@emeil.com">contact@halovietnam.com</a>
+                <a class="footer__phone" href="/">+844 35149182</a>
+            </div>
+            <div class="footer__links-block">
+                <a class="footer__link" href="/">Examples</a>
+                <a class="footer__link" href="/">Shop</a>
+                <a class="footer__link" href="/">License</a>
+            </div>
+            <div class="footer__links-block">
+                <a class="footer__link" href="/">Contact</a>
+                <a class="footer__link" href="/">About</a>
+                <a class="footer__link" href="/">Privacy</a>
+                <a class="footer__link" href="/">Terms</a>
+            </div>
+            <div class="footer__links-block">
+                <a class="footer__link" href="/">Download</a>
+                <a class="footer__link" href="/">Support</a>
+                <a class="footer__link" href="/">Documents</a>
+            </div>
+            
+            <div class="footer__links-block">
+                <a class="footer__link" href="/">Media</a>
+                <a class="footer__link" href="/">Blog</a>
+                <a class="footer__link" href="/">Forums</a>
+            </div>
+    </footer>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/js/swiper.min.js"></script>
 	<script src="js/scripts.min.js"></script>
 </body>
