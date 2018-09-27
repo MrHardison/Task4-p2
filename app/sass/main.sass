@@ -1,0 +1,101 @@
+@import "normalize"
+@import "vars"
+@import "fonts"
+@import "libs"
+
+body
+	font-family: PTSans
+
+.container
+	box-sizing: border-box
+	max-width: 960px
+	margin: 0 auto
+	padding: 0 10px
+
+	&_sm
+		max-width: 730px
+		padding: 0
+
+		@media(max-width: $tablet)
+			padding: 0 10px
+
+.title
+	color: #000
+	font-size: 32px
+	font-weight: 700
+	line-height: 32px
+	margin: 0
+
+	&_yellow
+		color: $yellow
+
+	&_sm
+		font-size: 22px
+		line-height: 22px
+
+	@media(max-width: $phone-sm)
+		font-size: 25px
+
+.description
+	color: $grey
+	font-size: 22px
+	line-height: 24px
+	margin: 0
+
+	&_lt
+		color: $light-grey
+
+	&_sm
+		font-size: 20px
+
+	@media(max-width: $phone-sm)
+		font-size: 18px
+
+.text
+	color: $dark-grey
+	font-size: 16px
+	line-height: 20px
+	margin: 0
+
+	&_lt
+		color: $light-grey
+
+	@media(max-width: $phone-sm)
+		font-size: 14px
+
+.input
+	background-color: #ffffff
+	border: none
+	border-radius: 5px
+	box-sizing: border-box
+	height: 50px
+	outline: none
+	padding: 0 24px
+	width: 580px
+
+.button
+	border: none
+	border-radius: 4px
+	cursor: pointer
+	color: #000
+	font-size: 16px
+	font-weight: 700
+	height: 54px
+	line-height: 53px
+	outline: none
+	padding: 0
+	text-transform: uppercase
+	width: 130px
+
+	&_yellow
+		background-color: $yellow
+
+.flex
+	display: flex
+
+.list
+	list-style: none
+	margin: 0
+	padding: 0
+
+// @import "media" // Always at the end
